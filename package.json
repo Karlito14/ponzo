@@ -1,0 +1,17 @@
+{
+  "name": "ponzo",
+  "version": "1.0.0",
+  "description": "Formulaire pour une société de placement financier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "tailwindcss -i ./assets/styles/input.css -o ./assets/styles/output.css --minify --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.10"
+  }
+}
