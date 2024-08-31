@@ -28,7 +28,7 @@
         class="flex flex-auto items-center justify-center bg-[url('../../../assets/images/cryptobg.jpeg')] bg-cover"
       >
         <div
-          class="flex max-w-[1000px] flex-auto border-2 border-black bg-white"
+          class="my-6 flex max-w-[1000px] flex-auto border-2 border-black bg-white"
         >
           <div class="flex-auto p-12">
             <h2 class="mb-4 text-2xl font-medium">Parlons de votre épargne</h2>
@@ -36,8 +36,98 @@
               Nous doublons votre investissement chaque année et ce, sans aucun
               risque
             </p>
-            <form>
-              <div></div>
+            <form class="my-4 grid grid-cols-2 gap-6">
+              <div class="flex flex-col gap-y-1">
+                <label for="firstname" class="text-sm font-bold">Prénom</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  class="rounded"
+                  autocomplete="off"
+                  autofocus
+                />
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label for="lastname" class="text-sm font-bold">Nom</label>
+                <input
+                  type="text"
+                  id="lastname"
+                  class="rounded"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label for="email" class="text-sm font-bold">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="rounded"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label for="phone" class="text-sm font-bold">Téléphone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  class="rounded"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-span-2 flex flex-col">
+                <p class="mb-4 text-sm font-bold">
+                  Estimation de votre capital
+                </p>
+                <label for="poor">
+                  <input
+                    type="radio"
+                    name="capital"
+                    id="poor"
+                    class="mr-2 text-black"
+                  />
+                  Moins de 25000€
+                </label>
+                <label for="middle">
+                  <input
+                    type="radio"
+                    name="capital"
+                    id="middle"
+                    class="mr-2 text-black"
+                  />
+                  Entre 25000€ et 50000€
+                </label>
+                <label for="rich">
+                  <input
+                    type="radio"
+                    name="capital"
+                    id="rich"
+                    class="mr-2 text-black"
+                  />
+                  Plus de 50000€
+                </label>
+              </div>
+              <div class="col-span-2 flex flex-col gap-y-2">
+                <label for="message" class="text-sm font-bold">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  class="resize-none rounded"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="col-span-2">
+                <button
+                  class="mb-4 w-full rounded bg-blue-500 px-4 py-2 text-center font-medium text-white shadow-lg transition-all hover:bg-blue-600"
+                >
+                  Confiez-nous votre argent !
+                </button>
+                <p class="text-sm font-medium">
+                  En soumettant ce formulaire, vous acceptez toutes nos
+                  <span class="cursor-pointer text-slate-700 underline"
+                    >conditions d'utilisation</span
+                  >.
+                </p>
+              </div>
             </form>
           </div>
           <div
