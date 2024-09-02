@@ -1,4 +1,4 @@
-# [SasPonzosy](https://karlito14.github.io/ponzo/)
+# [Ponzo](https://karlito14.github.io/ponzo/)
 
 Ponzo est un prototype d'un formulaire réalisé avec **Tailwind**.
 
